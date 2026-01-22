@@ -23,7 +23,7 @@
     <div class="kv">
       <div class="key">Evento</div><div id="evento">—</div>
       <div class="key">Nome</div><div id="nome">—</div>
-      <div class="key">Serial</div><div id="id">—</div>
+      <div class="key">Serial</div><div id="serial">—</div>
     </div>
     <div class="ok">Este voucher foi lido com sucesso. Apresente um documento se solicitado.</div>
     <footer>© <span id="year"></span> Organização do Evento</footer>
@@ -35,7 +35,7 @@
 
     document.getElementById('evento').textContent = get('evento') || '—';
     document.getElementById('nome').textContent   = get('nome')   || '—';
-    document.getElementById('id').textContent     = get('id')     || '—';
+    document.getElementById('serial').textContent = get('serial') || '—';
     document.getElementById('year').textContent   = new Date().getFullYear();
   </script>
 </body>
